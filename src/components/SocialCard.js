@@ -10,7 +10,7 @@ const StyledButton = styled(Button)`
   padding:1rem 2rem;
   border:none;
   font-weight: bold;
-  width:300px;
+  width:250px;
  }
  &.disabled{
    color:white;
