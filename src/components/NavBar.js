@@ -32,13 +32,13 @@ function  Header(){
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link to="/" as={StyledNavLink} className='pl-0'>Code</Nav.Link>
-        <Nav.Link to="/" as={StyledNavLink}>Writing</Nav.Link>
-        <Nav.Link to="/" as={StyledNavLink}>Blog</Nav.Link>
+        <Nav.Link to="/code" as={StyledNavLink} className='pl-0'>Code</Nav.Link>
+        <Nav.Link to="/writing" as={StyledNavLink}>Writing</Nav.Link>
+        <Nav.Link to="/blog" as={StyledNavLink}>Blog</Nav.Link>
       </Nav>
       <Nav>
-        <Nav.Link to="/" as={StyledNavLink}>Contact</Nav.Link>
-        <Nav.Link to="/" as={StyledNavLink}>About</Nav.Link>
+        <Nav.Link to="/contact" as={StyledNavLink}>Contact</Nav.Link>
+        <Nav.Link to="/about" as={StyledNavLink}>About</Nav.Link>
       </Nav>
       </Navbar.Collapse>
     </StyledNavbar>
