@@ -8,9 +8,6 @@ import AboutCard from '../components/AboutCard'
 import SocialCard from '../components/SocialCard'
 import Footer from '../components/Footer'
 
-//figure out how to make background component
-//figure out favicon
-
 const Background = styled(Container)`
   min-height: 94vh;
   min-width: 100%;
