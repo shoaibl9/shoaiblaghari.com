@@ -15,7 +15,7 @@ const StyledNavLink = styled(Link)`
 
 function  Header(){
   return(
-    <StyledNavbar  expand="lg" variant='dark' className="sticky-top shadow text-white mb-md-4 mb-sm-3"  >
+    <StyledNavbar expand="lg" variant='dark' className="sticky-top shadow text-white mb-md-4 mb-sm-3 ml-lg-4 mr-lg-4"  >
       <Navbar.Brand className='d-flex flex-row p-0'>
         <Link to="/">
         <img

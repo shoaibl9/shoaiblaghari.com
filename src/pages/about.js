@@ -6,12 +6,7 @@ import { Container } from 'react-bootstrap'
 import NavBar from '../components/NavBar'
 import AboutCard from '../components/AboutCard'
 import Footer from '../components/Footer'
-
-const Background = styled(Container)`
-  min-height: 94vh;
-  min-width: 100%;
-  background-image: linear-gradient(black, rgba(204, 68, 74, 1));
-`
+import Background from '../components/Background'
 
 export default () => {
   return (
@@ -25,11 +20,9 @@ export default () => {
       </head>
 
       <body>
-        <Background>
+        <Background />
           <NavBar />
           <AboutCard />
-        </Background>
-        <Footer className="text-center">Shoaib Laghari © 2021</Footer>
       </body>
     </>
   )
