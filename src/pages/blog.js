@@ -7,7 +7,7 @@ import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
 const Background = styled(Container)`
-  min-height: 94vh;
+  min-height: 100vh;
   min-width: 100%;
   background-image: linear-gradient(black, rgba(204, 68, 74, 1));
 `
@@ -28,7 +28,6 @@ export default () => {
           <NavBar />
           <p className="text-white text-center">Coming soon...</p>
         </Background>
-        <Footer className="text-center">Shoaib Laghari © 2021</Footer>
       </body>
     </>
   )
