@@ -28,7 +28,6 @@ export default () => {
           <NavBar />
           <p className="text-white text-center">Coming soon...</p>
         </Background>
-        <Footer className="text-center">Shoaib Laghari © 2021</Footer>
       </body>
     </>
   )
