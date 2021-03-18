@@ -7,7 +7,7 @@ const StyledContainer = styled(Container)`
   position: fixed;
   min-height: 100vh;
   min-width: 100%;
-  z-index: 0;
+  z-index: -1;
   background-image: linear-gradient(black, rgba(204, 68, 74, 1));
 `
 
