@@ -21,9 +21,11 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-react-helmet": "^4.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "styled-components": "^5.2.1"
   }
 }
