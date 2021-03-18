@@ -7,7 +7,7 @@ import SocialCard from '../components/SocialCard'
 const IndexPage = () => {
   return (
     < >
-      <Layout pageTitle="Home Page">
+      <Layout pageTitle="Home">
           <AboutCard />
           <SocialCard />
       </Layout>
