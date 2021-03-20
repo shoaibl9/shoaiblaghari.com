@@ -12,7 +12,7 @@ const IndexPage = () => {
           <SocialCard />
       </Layout>
     </>
-  )
+  );
 }
 
 export default IndexPage
