@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styled from 'styled-components'
+import emailjs from 'emailjs-com'
 
 import Layout from '../components/Layout'
 import { Card, Form, Button } from 'react-bootstrap'
@@ -27,8 +28,6 @@ class ContactPage extends React.Component {
   }
 
   handleChange = (event) => {
-    console.log(event);
-
     const target = event.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
     const name = target.name;
@@ -41,9 +40,18 @@ class ContactPage extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    this.setState({
-      disabled: true
-    });
+    emailjs.sendForm('service_evl6qyw', 'template_pzjfavp', event.target, 'user_yHq4xCy835BmSn8BseCcV')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      event.target.reset();
+      this.setState({
+        disabled: true,
+        emailSent: true
+      });
   }
 
   render() {
