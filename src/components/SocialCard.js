@@ -65,7 +65,7 @@ const BtnInstagram = styled(StyledButton)`
 }
 `
 
-function AboutCard() {
+function SocialCard() {
   return(
     <Container>
       <Row>
@@ -90,4 +90,4 @@ function AboutCard() {
   );
 }
 
-export default AboutCard;
+export default SocialCard;

@@ -13,7 +13,7 @@ const StyledNavLink = styled(Link)`
   font-weight: bold;
 `
 
-function  Header(){
+function NavBar(){
   return(
     <StyledNavbar expand="lg" variant='dark' className="sticky-top shadow text-white mb-md-4 mb-sm-3 ml-lg-4 mr-lg-4"  >
       <Navbar.Brand className='d-flex flex-row p-0'>
@@ -45,4 +45,4 @@ function  Header(){
   )
 }
 
-export default Header;
+export default NavBar;

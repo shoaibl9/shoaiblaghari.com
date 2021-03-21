@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Layout from '../components/Layout'
 import AboutCard from '../components/AboutCard'
 
-export default () => {
+const AboutPage = () => {
   return (
     < >
       <Layout pageTitle="About">
@@ -13,3 +13,5 @@ export default () => {
     </>
   )
 }
+
+export default AboutPage;

@@ -5,7 +5,7 @@ import Background from '../components/Background'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-export default ({ pageTitle, children }) => (
+const Layout = ({ pageTitle, children }) => (
   <>
     <Helmet>
       <title>{`Shoaib Laghari | ${pageTitle}`}</title>
@@ -25,3 +25,5 @@ export default ({ pageTitle, children }) => (
     </div>
   </>
 )
+
+export default Layout;

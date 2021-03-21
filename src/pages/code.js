@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Layout from '../components/Layout'
 import { Card } from 'react-bootstrap'
 
-export default () => {
+const CodePage = () => {
   return (
     < >
       <Layout pageTitle="Code">
@@ -15,3 +15,5 @@ export default () => {
     </>
   )
 }
+
+export default CodePage;
