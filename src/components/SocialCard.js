@@ -23,7 +23,7 @@ const StyledButton = styled(Button)`
  }
 `
 
-const BtnGithub = styled(StyledButton)`
+{/*const BtnGithub = styled(StyledButton)`
 &{
   color:white;
   background:#211F1F;
@@ -41,7 +41,7 @@ const BtnLinkedin = styled(StyledButton)`
 &:hover{
   background:#0a597e;
 }
-`
+`*/}
 
 const BtnInstagram = styled(StyledButton)`
 &{
@@ -76,12 +76,12 @@ function SocialCard() {
             <BtnInstagram block href='https://www.instagram.com/shoaib9_' target='_blank' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram}/> Instagram
             </BtnInstagram>
-            <BtnLinkedin block href='https://www.linkedin.com/in/shoaiblaghari' target='_blank' rel="noopener noreferrer">
+            {/*<BtnLinkedin block href='https://www.linkedin.com/in/shoaiblaghari' target='_blank' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin}/> Linkedin
             </BtnLinkedin>
             <BtnGithub  block href='https://www.github.com/shoaibl9' target='_blank' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub}/> Github
-            </BtnGithub>
+            </BtnGithub>*/}
             </Card.Body>
           </Card>
         </Col>
