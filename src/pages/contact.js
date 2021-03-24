@@ -47,11 +47,14 @@ class ContactPage extends React.Component {
           console.log(error.text);
       });
 
-      event.target.reset();
+      setTimeout(function() { alert("Email Sent!"); }, 500);
       this.setState({
-        disabled: true,
-        emailSent: true
+        emailSent: true,
+        name: "",
+        email: "",
+        message: ""
       });
+
   }
 
   render() {
@@ -62,17 +65,17 @@ class ContactPage extends React.Component {
           <Form onSubmit={this.handleSubmit}>
             <Form.Group>
               <Form.Label htmlFor="full-name" className="text-white">Full Name</Form.Label>
-              <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}/>
+              <Form.Control id="full-name" name="name" type="text" placeholder="Your Name" value={this.state.name} onChange={this.handleChange} required/>
             </Form.Group>
 
             <Form.Group>
               <Form.Label htmlFor="email" className="text-white">Email</Form.Label>
-              <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange}/>
+              <Form.Control id="email" name="email" type="email" placeholder="Your Email" value={this.state.email} onChange={this.handleChange} required/>
             </Form.Group>
 
             <Form.Group>
               <Form.Label htmlFor="message" className="text-white">Message</Form.Label>
-              <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange}/>
+              <Form.Control id="message" name="message" as="textarea" rows="3" placeholder="Message goes here" value={this.state.message} onChange={this.handleChange} required/>
             </Form.Group>
 
             <Button type="submit" className="d-inline-block" variant="dark" disabled={this.state.disabled}>
