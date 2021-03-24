@@ -37,7 +37,7 @@ class ContactPage extends React.Component {
     })
   }
 
-  handleSubmit = (event) => {
+  /*handleSubmit = (event) => {
     event.preventDefault();
 
     emailjs.sendForm('service_evl6qyw', 'template_pzjfavp', event.target, 'user_yHq4xCy835BmSn8BseCcV')
@@ -52,14 +52,14 @@ class ContactPage extends React.Component {
         disabled: true,
         emailSent: true
       });
-  }
+  }*/
 
   render() {
     return(
       <Layout>
 
         <ContactCard className="mt-3">
-          <Form onSubmit={this.handleSubmit}>
+          <Form /*onSubmit={this.handleSubmit}*/>
             <Form.Group>
               <Form.Label htmlFor="full-name" className="text-white">Full Name</Form.Label>
               <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}/>
