@@ -22,7 +22,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.4",
-    "gatsby": "^2.26.1",
+    "gatsby": "^3.1.2",
     "gatsby-plugin-react-helmet": "^4.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
