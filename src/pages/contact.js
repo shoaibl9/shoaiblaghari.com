@@ -59,7 +59,7 @@ class ContactPage extends React.Component {
       <Layout>
 
         <ContactCard className="mt-3">
-          <Form /*onSubmit={this.handleSubmit}*/>
+          <Form onSubmit={this.handleSubmit}>
             <Form.Group>
               <Form.Label htmlFor="full-name" className="text-white">Full Name</Form.Label>
               <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}/>
