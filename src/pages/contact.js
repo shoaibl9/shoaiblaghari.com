@@ -16,7 +16,7 @@ const ContactCard = styled(Card)`
 
 class ContactPage extends React.Component {
 
-  /*constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       name: "",
@@ -52,14 +52,14 @@ class ContactPage extends React.Component {
         disabled: true,
         emailSent: true
       });
-  }*/
+  }
 
   render() {
     return(
       <Layout>
 
-        /*<ContactCard className="mt-3">
-          <Form onSubmit={this.handleSubmit}>
+        <ContactCard className="mt-3">
+          <Form /*onSubmit={this.handleSubmit}*/>
             <Form.Group>
               <Form.Label htmlFor="full-name" className="text-white">Full Name</Form.Label>
               <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}/>
@@ -82,7 +82,7 @@ class ContactPage extends React.Component {
             {this.state.emailSent === true && <p className="d-inline-block ml-3 text-white">Email Sent</p>}
             {this.state.emailSent === false && <p className="d-inline-block ml-3 text-white">Email Not Sent</p>}
           </Form>
-        </ContactCard>*/
+        </ContactCard>
 
       </Layout>
     );
