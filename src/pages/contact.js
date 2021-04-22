@@ -1,3 +1,5 @@
+//
+
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styled from 'styled-components'
@@ -59,7 +61,7 @@ class ContactPage extends React.Component {
 
   render() {
     return(
-      <Layout>
+      <Layout pageTitle="Contact">
 
         <ContactCard className="mt-3">
           <Form onSubmit={this.handleSubmit}>
