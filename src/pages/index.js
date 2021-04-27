@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/index.css'
 
 import Layout from '../components/Layout'
 import AboutCard from '../components/AboutCard'
