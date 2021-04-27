@@ -32,7 +32,11 @@ const AboutPage = () => {
           </Row>
         </Accordion>
 
-        <p className="text-center mt-3"><a className="text-white" href={resume} target="_blank" rel="noreferrer">Or download it here</a></p>
+        <p className="text-center mt-3">
+        <a className="text-white" href={resume} target="_blank" rel="noreferrer">
+        Or download it here (if it's not working)
+        </a>
+        </p>
 
       </Layout>
     </>
