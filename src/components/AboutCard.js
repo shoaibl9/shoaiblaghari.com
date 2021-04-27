@@ -20,13 +20,13 @@ function AboutCard() {
             I kind of just keep my random projects and writing stuff here. Feel free to show yourself around :)</p>
             <p>A little bit about me:</p>
             <ul>
-              <li>I'm a student at the <strong>University of Washington</strong> studying Economics and Data Science.</li>
+              <li>I'm a student at the <strong>University of Washington</strong> studying Economics (and Data Science and International Studies).</li>
               <li>I like soccer.. like a lot. I also like ice skating and watching movies.</li>
               <li>I'm not very good at meeting people, so please DM me first. It's the only way.</li>
             </ul>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>P.S.- I'll try to get the basic site finished during Spring. Probably doing homework right now.</Card.Footer>
+          <Card.Footer>P.S.- I'll try to get the basic site finished by Spring. Probably doing homework right now.</Card.Footer>
         </Card>
         </Col>
       </Row>
