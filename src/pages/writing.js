@@ -25,7 +25,7 @@ const WritingPage = () => {
   return (
     < >
       <Layout pageTitle="Writing">
-        <StyledAccordion>
+        <StyledAccordion className="mt-3">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
               2021 Writings
