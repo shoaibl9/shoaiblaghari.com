@@ -21,6 +21,10 @@ import extendedessay from '../stuff/2020/extendedessay.pdf'
 import french from '../stuff/2020/french.pdf'
 import history from '../stuff/2020/history.pdf'
 import math from '../stuff/2020/math.pdf'
+import pols203paper1 from '../stuff/2021/pols203paper1.pdf'
+import pols203paper2 from '../stuff/2021/pols203paper2.pdf'
+import pols203paper3 from '../stuff/2021/pols203paper3.pdf'
+import spatialautobiography from '../stuff/2021/spatialautobiography.pdf'
 
 const StyledAccordion = styled(Accordion)`
   margin: auto;
@@ -37,7 +41,12 @@ const WritingPage = () => {
               2021 Writings
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
-              <Card.Body>*In Progress</Card.Body>
+              <Card.Body>
+                <a href={pols203paper1} target="_blank" rel="noreferrer"><em>Tensions Over Kashmir</em></a><br/>
+                <a href={pols203paper2} target="_blank" rel="noreferrer"><em>Environmental Sustainability Through International Trade</em></a><br/>
+                <a href={pols203paper3} target="_blank" rel="noreferrer"><em>Global Governance and Transnational Relations</em></a><br/>
+                <a href={spatialautobiography} target="_blank" rel="noreferrer"><em>Spatial Autiobiography</em></a>
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -47,9 +56,9 @@ const WritingPage = () => {
             <Accordion.Collapse eventKey="1">
               <Card.Body>
                 <a href={extendedessay} target="_blank" rel="noreferrer"><em>Translation in Poetry and Holy Text</em></a><br/>
-                <a href={biology} target="_blank" rel="noreferrer"><em>The Effects of Varying Temperatures on Population Growth in Caenorhabditis Elegans</em></a><br/>
-                <a href={business} target="_blank" rel="noreferrer"><em>Should Pakola Inc. Introduce Their Soda to Western Markets</em></a><br/>
-                <a href={history} target="_blank" rel="noreferrer"><em>The Significance of the Tuskegee Syphilis Experiment on the US Civil Rights Movement</em></a><br/>
+                <a href={biology} target="_blank" rel="noreferrer"><em>Caenorhabditis Elegans (Biology Experiment)</em></a><br/>
+                <a href={business} target="_blank" rel="noreferrer"><em>Pakola Inc. (Business Analysis)</em></a><br/>
+                <a href={history} target="_blank" rel="noreferrer"><em>Tuskegee Syphilis Experiment (US History Paper)</em></a><br/>
                 <a href={math} target="_blank" rel="noreferrer"><em>Investigating the Mathematics of Avatar: The Last Airbender</em></a><br/>
                 <a href={french} target="_blank" rel="noreferrer"><em>Cendrillon Essay en Français</em></a>
               </Card.Body>
