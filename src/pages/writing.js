@@ -15,6 +15,12 @@ import surgery from '../stuff/2018/surgery.pdf'
 import onesteptwostep from '../stuff/2019/onesteptwostep.pdf'
 import commonapp from '../stuff/2019/commonapp.pdf'
 import dec30 from '../stuff/2019/dec30.pdf'
+import biology from '../stuff/2020/biology.pdf'
+import business from '../stuff/2020/business.pdf'
+import extendedessay from '../stuff/2020/extendedessay.pdf'
+import french from '../stuff/2020/french.pdf'
+import history from '../stuff/2020/history.pdf'
+import math from '../stuff/2020/math.pdf'
 
 const StyledAccordion = styled(Accordion)`
   margin: auto;
@@ -39,7 +45,14 @@ const WritingPage = () => {
               2020 Writings
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
-              <Card.Body>*In Progress</Card.Body>
+              <Card.Body>
+                <a href={extendedessay} target="_blank" rel="noreferrer"><em>Translation in Poetry and Holy Text</em></a><br/>
+                <a href={biology} target="_blank" rel="noreferrer"><em>The Effects of Varying Temperatures on Population Growth in Caenorhabditis Elegans</em></a><br/>
+                <a href={business} target="_blank" rel="noreferrer"><em>Should Pakola Inc. Introduce Their Soda to Western Markets</em></a><br/>
+                <a href={history} target="_blank" rel="noreferrer"><em>The Significance of the Tuskegee Syphilis Experiment on the US Civil Rights Movement</em></a><br/>
+                <a href={math} target="_blank" rel="noreferrer"><em>Investigating the Mathematics of Avatar: The Last Airbender</em></a><br/>
+                <a href={french} target="_blank" rel="noreferrer"><em>Cendrillon Essay en Français</em></a>
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
