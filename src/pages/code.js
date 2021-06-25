@@ -63,7 +63,9 @@ const CodePage = () => {
 
         </StyledCarousel>
 
-        <p className="text-white ml-5">I know, I know. I haven't made that much stuff yet. I'm trying okay!</p>
+        <div style={{ borderTop: "3px solid #fff ", marginLeft: 50, marginRight: 50 }}></div>
+
+        <p className="text-white ml-5 mt-3">I know, I know. I haven't made that much stuff yet. I'm trying okay!</p>
         <p className="text-white ml-5">Some more of my code (that I'm not sure if I can share because it was for a class at UW) can be found
           <strong>
           <a className="text-white" target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse143x/20au/homework.shtml"> here.</a>
