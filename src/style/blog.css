@@ -1,0 +1,34 @@
+.special {
+  position: relative;
+  display: inline-block;
+  width: 30vh;
+  height: 30vh;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.special:hover {
+  color: #333;
+}
+
+.special::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 27%;
+  right: 28%;
+  width: 85px;
+  height: 85px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+  transition: all 0.3s ease;
+}
+
+.special:hover::after {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1, 1);
+}
