@@ -1,7 +1,7 @@
 import React from 'react'
 import me from '../images/profilePic.jpg'
 
-import { Container, Col, Row, Card, Image} from 'react-bootstrap'
+import { Container, Col, Row, Card, Image } from 'react-bootstrap'
 
 function AboutCard() {
   return(
@@ -26,7 +26,6 @@ function AboutCard() {
             </ul>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>P.S.- I'll try to get the basic site finished by Summer. Probably doing homework right now.</Card.Footer>
         </Card>
         </Col>
       </Row>
