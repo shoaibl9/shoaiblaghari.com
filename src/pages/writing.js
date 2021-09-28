@@ -14,6 +14,7 @@ import odyssey from '../stuff/2018/odyssey.pdf'
 import surgery from '../stuff/2018/surgery.pdf'
 import onesteptwostep from '../stuff/2019/onesteptwostep.pdf'
 import commonapp from '../stuff/2019/commonapp.pdf'
+import writtentask from '../stuff/2019/writtentask.pdf'
 import dec30 from '../stuff/2019/dec30.pdf'
 import biology from '../stuff/2020/biology.pdf'
 import business from '../stuff/2020/business.pdf'
@@ -72,7 +73,8 @@ const WritingPage = () => {
               <Card.Body>
               <a href={onesteptwostep} target="_blank" rel="noreferrer"><em>One Step, Two Step (Short Story)</em></a><br/>
               <a href={dec30} target="_blank" rel="noreferrer"><em>Dec. 30, 2018</em></a><br/>
-              <a href={commonapp} target="_blank" rel="noreferrer"><em>Common Application Personal Statement</em></a>
+              <a href={commonapp} target="_blank" rel="noreferrer"><em>Common Application Personal Statement</em></a><br/>
+              <a href={writtentask} target="_blank" rel="noreferrer"><em>Extension of Kurt Vonnegut's Slaughterhouse Five</em></a>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
