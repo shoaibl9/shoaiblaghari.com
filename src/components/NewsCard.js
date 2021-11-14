@@ -1,3 +1,20 @@
+// take advantage of functional programming:
+
+// const NewsFeature = ({ header, link, description  }) => (
+//   <>
+//     <Col xs="12" sm="4" className="mt-2">
+//         <Card>
+//           <p className="ml-2 mt-2 mr-2 mb-2">
+//           <a href="${link}"
+//           target='_blank' rel="noopener noreferrer">
+//           <em>${header}, </em></a>
+//             "${description}."
+//           </p>
+//         </Card>
+//       </Col>
+//    </>
+// )
+
 import React from 'react'
 
 import { Container, Col, Row, Card } from 'react-bootstrap'
@@ -13,6 +30,16 @@ function NewsCard() {
         </Col>
       </Row>
       <Row>
+        <Col xs="12" sm="4" className="mt-2">
+          <Card>
+            <p className="ml-2 mt-2 mr-2 mb-2">
+            <a href="https://www.youtube.com/watch?v=W1QT8dpX9Gk"
+            target='_blank' rel="noopener noreferrer">
+            <em>Harry Bridges Center for Labor Studies, </em></a>
+             "Shoaib Laghari Full Interview (2021-2022 Scholarship Recipient)."
+            </p>
+          </Card>
+        </Col>
         <Col xs="12" sm="4" className="mt-2">
           <Card>
             <p className="ml-2 mt-2 mr-2 mb-2">

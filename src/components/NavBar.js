@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import {Navbar, Nav} from 'react-bootstrap'
-import logo from '../images/huskycolored.jpg'
+import logo from '../assets/images/huskycolored.jpg'
 
 import styled from 'styled-components';
 
@@ -34,7 +34,6 @@ function NavBar(){
       <Nav className="mr-auto">
         <Nav.Link to="/code" as={StyledNavLink} className='pl-0'>Code</Nav.Link>
         <Nav.Link to="/writing" as={StyledNavLink}>Writing</Nav.Link>
-        <Nav.Link to="/blog" as={StyledNavLink}>Blog</Nav.Link>
       </Nav>
       <Nav>
         <Nav.Link to="/contact" as={StyledNavLink}>Contact</Nav.Link>

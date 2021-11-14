@@ -1,3 +1,5 @@
+// currently unused
+
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../style/blog.css'

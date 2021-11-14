@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import resume from '../stuff/Resume.pdf'
+import resume from '../assets/files/Resume.pdf'
 
 import Layout from '../components/Layout'
 import AboutCard from '../components/AboutCard'

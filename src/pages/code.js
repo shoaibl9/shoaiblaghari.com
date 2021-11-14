@@ -5,10 +5,10 @@ import styled from 'styled-components'
 import Layout from '../components/Layout'
 import { Carousel } from 'react-bootstrap'
 
-import andrew from '../images/andrew.jpg'
-import blackjack from '../images/blackjack.jpg'
-import tictactoe from '../images/tictactoe.jpg'
-import flippedtravel from '../images/flippedtravel.jpg'
+import andrew from '../assets/images/andrew.jpg'
+import blackjack from '../assets/images/blackjack.jpg'
+import tictactoe from '../assets/images/tictactoe.jpg'
+import flippedtravel from '../assets/images/flippedtravel.jpg'
 
 const StyledCarousel = styled(Carousel)`
   width: 80%;

@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../images/profilePic.jpg'
+import me from '../assets/images/profilePic.jpg'
 
 import { Container, Col, Row, Card, Image } from 'react-bootstrap'
 
