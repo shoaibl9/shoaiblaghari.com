@@ -71,7 +71,7 @@ const CodePage = () => {
           <a className="text-white" target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse143x/20au/homework.shtml"> here.</a>
           </strong></p>
         <p className="text-white ml-5">I am working on some pretty cool stuff though ;)</p>
-        <em><a className="text-white ml-5" href="https://github.com/shoaibl9" target="_blank" rel="noreferrer">https://github.com/shoaibl9</a></em>
+        <em><a className="text-white ml-5 mb-5" href="https://github.com/shoaibl9" target="_blank" rel="noreferrer">https://github.com/shoaibl9</a></em>
       </Layout>
     </>
   )
