@@ -20,9 +20,10 @@ function AboutCard() {
             I kind of just keep my random projects and writing stuff here. Feel free to show yourself around :)</p>
             <p>A little bit about me:</p>
             <ul>
-              <li>I'm a student at the <strong>University of Washington</strong> studying Economics (and maybe Data Science or International Studies).</li>
-              <li>In my free time, I like to play soccer, watch movies, check out parks, talk with friends. You know. The usual.</li>
-              <li>My socials are listed below, so follow me there and we can chat!</li>
+              <li>I was born in <strong>Karachi</strong>, Pakistan, raised in <strong>Nashville</strong>, Tennessee, and am currently studying in Seattle, Washington.</li>
+              <li>I hope to graduate from the <strong>University of Washington</strong> with a Bachelor of Science (Honors) degree in Economics and minor in Data Science.</li>
+              <li>I enjoy studying: development economics, immigration, labor, sustainability, computer algorithms, databases and data structures, international trade, cities, cloud computing, and more.</li>
+              <li>In my free time, I play soccer and basketball, watch movies and tv shows (classics, cartoons, and anime), play video games (on PS4), and spend time with friends.</li>
             </ul>
             </Card.Text>
           </Card.Body>

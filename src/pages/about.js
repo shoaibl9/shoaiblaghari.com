@@ -11,8 +11,6 @@ const AboutPage = () => {
     < >
       <Layout pageTitle="About">
         <AboutCard />
-        <a className="text-white" href={resume} target="_blank" rel="noreferrer">
-        </a>
         <Accordion>
           <Row className="justify-content-center">
             <Col xs="10">
