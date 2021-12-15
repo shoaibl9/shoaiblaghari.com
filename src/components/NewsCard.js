@@ -29,7 +29,7 @@ function NewsCard() {
           </Card>
         </Col>
       </Row>
-      <Row>
+      <Row className="mb-5">
         <Col xs="12" sm="4" className="mt-2">
           <Card>
             <p className="ml-2 mt-2 mr-2 mb-2">

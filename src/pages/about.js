@@ -30,7 +30,7 @@ const AboutPage = () => {
           </Row>
         </Accordion>
 
-        <p className="text-center mt-3">
+        <p className="text-center mt-3 mb-5">
         <a className="text-white" href={resume} target="_blank" rel="noreferrer">
         Or download it here (if it's not working)
         </a>

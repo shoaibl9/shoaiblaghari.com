@@ -15,7 +15,7 @@ const Layout = ({ pageTitle, children }) => (
       <meta name="author" content="Shoaib Laghari" />
       <link rel="icon" type="image/png" href="favicon.ico" />
     </Helmet>
-    <div style={{position: 'relative', minHeight: '100vh', border: '0.1px solid black'}}>
+    <div>
       <header>
         <Background />
         <NavBar />
