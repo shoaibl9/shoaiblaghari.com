@@ -11,7 +11,7 @@ import tictactoe from '../assets/images/tictactoe.jpg'
 import flippedtravel from '../assets/images/flippedtravel.jpg'
 
 const StyledCarousel = styled(Carousel)`
-  width: 80%;
+  width: 60%;
   margin: auto;
   margin-top: 2vh;
 `
@@ -66,12 +66,11 @@ const CodePage = () => {
         <div style={{ borderTop: "3px solid #fff ", marginLeft: 50, marginRight: 50 }}></div>
 
         <p className="text-white ml-5 mt-3">I know, I know. I haven't made that much stuff yet. I'm trying okay!</p>
-        <p className="text-white ml-5">Some more of my code (that I'm not sure if I can share because it was for a class at UW) can be found
+        <p className="text-white ml-5">Other stuff I've made (that I'm not sure if I can share because it was for a class at UW) can be found
           <strong>
           <a className="text-white" target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse143x/20au/homework.shtml"> here.</a>
           </strong></p>
-        <p className="text-white ml-5">I am working on some pretty cool stuff though ;)</p>
-        <em><a className="text-white ml-5 mb-5" href="https://github.com/shoaibl9" target="_blank" rel="noreferrer">https://github.com/shoaibl9</a></em>
+        <p className="text-white ml-5 mb-5">See my latest code at <em><a className="text-white" href="https://github.com/shoaibl9" target="_blank" rel="noreferrer">https://github.com/shoaibl9</a></em>.</p>
       </Layout>
     </>
   )
