@@ -1,4 +1,4 @@
-### My portfolio/blog/personal website
+## My portfolio/blog/personal website
 
 Powered by GatsbyJS, built with ReactJS, managed by Firestore, connected to EmailJS.
 
