@@ -37,7 +37,7 @@ const WritingPage = () => {
     < >
       <Layout pageTitle="Writing">
         <StyledAccordion className="mt-3">
-          <Card>
+          <Card >
             <Accordion.Toggle as={Card.Header} eventKey="0">
               2021 Writings
             </Accordion.Toggle>
@@ -50,7 +50,7 @@ const WritingPage = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card >
             <Accordion.Toggle as={Card.Header} eventKey="1">
               2020 Writings
             </Accordion.Toggle>
@@ -65,7 +65,7 @@ const WritingPage = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card >
             <Accordion.Toggle as={Card.Header} eventKey="2">
               2019 Writings
             </Accordion.Toggle>
@@ -78,7 +78,7 @@ const WritingPage = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card >
             <Accordion.Toggle as={Card.Header} eventKey="3">
               2018 Writings
             </Accordion.Toggle>
@@ -92,7 +92,7 @@ const WritingPage = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card >
             <Accordion.Toggle as={Card.Header} eventKey="4">
               2017 Writings
             </Accordion.Toggle>
@@ -102,7 +102,7 @@ const WritingPage = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card >
             <Accordion.Toggle as={Card.Header} eventKey="5">
               2015 Writings
             </Accordion.Toggle>

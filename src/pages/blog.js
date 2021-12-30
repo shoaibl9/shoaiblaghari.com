@@ -1,42 +1,44 @@
-// currently unused
-
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React, { useState, useEffect } from 'react'
 import '../style/blog.css'
-import styled from 'styled-components'
 
 import Layout from '../components/Layout'
-import { Container } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWordpress } from '@fortawesome/free-brands-svg-icons'
+import Collapsible from 'react-collapsible';
 
-const StyledContainer = styled(Container)`
-&{
-  margin-top: 30vh;
-  text-align: center;
-  transform: translateY(-50%);
-}
-`
-
-const StyledIcon = styled(FontAwesomeIcon)`
-&{
-  font-size: 2em;
-  margin-top: 40%;
-}
-`
+import { db } from '../db/firebase-config'
+import { collection, getDocs, orderBy, query } from 'firebase/firestore'
 
 const BlogPage = () => {
+  const blogsCollectionRef = collection(db, "blogs");
+  var [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    const getBlogs = async () => {
+      const data = await getDocs(query(blogsCollectionRef, orderBy('ts')));
+      setBlogs(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
+    }
+
+    getBlogs()
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     < >
       <Layout pageTitle="Blog">
-        <StyledContainer>
-          <a href="https://www.shoaiblaghari.me" target='_blank' rel="noopener noreferrer" className="special">
-            <StyledIcon icon={faWordpress}/>
-          </a>
-        </StyledContainer>
+        <div className='mt-3'>
+          {blogs.map((blog) => {
+            return (
+              <Collapsible key={blog.id} trigger={<strong>{blog.title}</strong>}>
+                <small>{blog.date}</small>
+                <p />
+                <small>
+                  {blog.content}
+                </small>
+              </Collapsible>
+            );
+          })}
+        </div>
       </Layout>
     </>
-  )
+  );
 }
 
 export default BlogPage;

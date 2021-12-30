@@ -32,3 +32,31 @@
   opacity: 1;
   transform: scale(1, 1);
 }
+
+.Collapsible {
+  margin: auto;
+  padding: 1vh;
+  width: 75%;
+  background: white;
+  border-radius: 6px;
+  margin-top: 5vh;
+}
+
+.Collapsible.expand {
+  animation-name: expand;
+  animation-duration: 2s;
+}
+
+@keyframes expand {
+  from {
+    width: 35%
+  }
+
+  to {
+    width: 80%
+  }
+}
+
+.multiline {
+  white-space: pre-wrap;
+}

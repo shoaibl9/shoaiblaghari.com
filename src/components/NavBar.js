@@ -34,6 +34,7 @@ function NavBar(){
       <Nav className="mr-auto">
         <Nav.Link to="/code" as={StyledNavLink} className='pl-0'>Code</Nav.Link>
         <Nav.Link to="/writing" as={StyledNavLink}>Writing</Nav.Link>
+        <Nav.Link to="/blog" as={StyledNavLink}>Blog</Nav.Link>
       </Nav>
       <Nav>
         <Nav.Link to="/contact" as={StyledNavLink}>Contact</Nav.Link>
