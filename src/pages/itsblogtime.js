@@ -69,10 +69,12 @@ const BlogCRUDPage = () => {
                 <small className='multiline'>
                 {blog.content}
                 </small>
-                <br />
-                <Button className="mt-3 w-25" variant='outline-danger' onClick={() => deleteBlog(blog.id)}>
-                Delete
-                </Button>
+                {/*
+                  <br />
+                  <Button className="mt-3 w-25" variant='outline-danger' onClick={() => deleteBlog(blog.id)}>
+                  Delete
+                  </Button>*/
+                }
             </Collapsible>
           );
         })}
