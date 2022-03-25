@@ -40,7 +40,8 @@ class ContactPage extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, event.target, process.env.REACT_APP_EMAILJS_USER_ID)
+    /* I KNOW IT's BAD PRACTICE TO HAVE API TOKENS IN CODE... */
+    emailjs.sendForm("personal_service", "website_contact", event.target, "user_yHq4xCy835BmSn8BseCcV")
       .then((result) => {
           console.log(result.text);
       }, (error) => {

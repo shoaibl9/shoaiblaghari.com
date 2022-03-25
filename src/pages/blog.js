@@ -23,6 +23,9 @@ const BlogPage = () => {
   return (
     < >
       <Layout pageTitle="Blog">
+        <div className='mt-3 ml-4 text-white'>
+          <p>This page isn't ready! Check back soon.</p>
+        </div>
         <div className='mt-3'>
           {blogs.map((blog) => {
             return (

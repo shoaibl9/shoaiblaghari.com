@@ -22,7 +22,7 @@ function AboutCard() {
             <ul>
               <li>I was born in <strong>Karachi</strong>, Pakistan, raised in <strong>Nashville</strong>, Tennessee, and am currently studying in Seattle, Washington.</li>
               <li>I hope to graduate from the <strong>University of Washington</strong> with a Bachelor of Science (Honors) degree in Economics and minor in Data Science.</li>
-              <li>I enjoy studying: development economics, immigration, labor, sustainability, computer algorithms, databases and data structures, international trade, cities, cloud computing, and more.</li>
+              <li>My main academic interests are: development economics, immigration, sustainability, computational and data science, international trade, cities, and more.</li>
               <li>In my free time, I like to play soccer, watch movies, read, play video games (on PS4), and hang out with friends.</li>
             </ul>
             </Card.Text>
