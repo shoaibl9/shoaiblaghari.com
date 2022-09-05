@@ -13,7 +13,7 @@ const BlogPage = () => {
 
   useEffect(() => {
     const getBlogs = async () => {
-      const data = await getDocs(query(blogsCollectionRef, orderBy('ts')));
+      const data = await getDocs(query(blogsCollectionRef, orderBy('ts', 'desc')));
       setBlogs(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
     }
 
@@ -23,8 +23,12 @@ const BlogPage = () => {
   return (
     < >
       <Layout pageTitle="Blog">
-        <div className='mt-3 ml-4 text-white'>
-          <p>This page isn't ready! Check back soon.</p>
+        <div className='mt-3 ml-4 mr-4 text-white'>
+          <p><strong>One liners!</strong></p>
+          <p>
+            Love watching movies, always store lines I keep with me in my notes app, starting this blog to talk more on those quotes.
+          </p>
+          <p>Click on a title to expand the blog post <span role="img" aria-label="sunglasses smiling emoji">😎</span></p>
         </div>
         <div className='mt-3'>
           {blogs.map((blog) => {

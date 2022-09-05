@@ -29,7 +29,7 @@ const BlogCRUDPage = () => {
 
   useEffect(() => {
     const getBlogs = async () => {
-      const data = await getDocs(query(blogsCollectionRef, orderBy('ts')))
+      const data = await getDocs(query(blogsCollectionRef, orderBy('ts', 'desc')))
       setBlogs(data.docs.map((doc) => ({...doc.data(), id: doc.id})))
     }
 
@@ -69,12 +69,10 @@ const BlogCRUDPage = () => {
                 <small className='multiline'>
                 {blog.content}
                 </small>
-                {/*
-                  <br />
-                  <Button className="mt-3 w-25" variant='outline-danger' onClick={() => deleteBlog(blog.id)}>
-                  Delete
-                  </Button>*/
-                }
+                <br />
+                <Button className="mt-3 w-25" variant='outline-danger' onClick={() => deleteBlog(blog.id)}>
+                Delete
+                </Button>
             </Collapsible>
           );
         })}

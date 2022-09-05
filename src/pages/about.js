@@ -17,7 +17,7 @@ const AboutPage = () => {
             <Card className="mt-5">
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="light" eventKey="0">
-                  Click here to view my resume (as of March 2022)
+                  Click here to view my resume (as of September 2022)
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
